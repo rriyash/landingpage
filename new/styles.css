@@ -1,0 +1,92 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding:0;
+  }
+  
+  /* Header styles */
+  header {
+    
+    background-color:palevioletred;
+    padding: 20px;
+    
+  }
+  
+  nav ul {
+    list-style-type:none;
+     
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Section styles */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h1 {
+    color:rgb(43, 226, 171);
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+  
+  h2 {
+    color:rgb(0, 255, 38);
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color:red;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color:cornflowerblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(64, 139, 224);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color:red;
+  }
+  
+  /* Destination card styles */
+  .destination-card {
+    margin-bottom: 40px;
+  }
+  
+  .destination-card img {
+    max-width: 50%;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color:aqua;
+    color: green;
+    text-align: center;
+    padding: 20px;
+  }
+  
